@@ -1,24 +1,35 @@
-canvas{
-    border:1px solid black;
+*{
+    padding:0;
+    margin:0;
+    /*border: 1px solid black*/
 }
+
 body{
-    position:absolute;
-    align-content: center;
-    justify-content: center;
+    width:60%;
+    margin-left:20%;
+    height:100vh;
+    border: 2px solid black;
 }
-
-p{
+.a1{
     text-align: center;
-    justify-content: center;
-    position: absolute;
-    margin-top: 20px;
-    font-weight: 900;
-    font-size: 30px;
-    width:80%;
-    margin-left:10%;
-    animation: s 4s 1000ms infinite;
+    align-content: center;
+    width:100%;
+    margin-top: 3%;
+    
 }
-
+.a{
+    font-size: 20px;
+    font-weight: 300;
+    padding: auto;
+    margin: auto;
+}
+.b{
+    font-size: 40px;
+    font-weight: bold;
+    animation: s 4s 1000ms infinite;
+    padding:auto;
+    margin: auto;
+}
 
 @keyframes s{
     0%{transform: scale(0.3);}
